@@ -1,2 +1,2 @@
 # odin-landingpage
-Building template landing page
+I simple Example Home Page for a website
