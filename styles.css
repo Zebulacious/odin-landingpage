@@ -111,7 +111,6 @@
     font-size: 36px;
     background-color: white;
     font-weight: bolder;
-
 }
 
 .thirds {
@@ -123,6 +122,37 @@
     display: flex;
     align-items: center;
     flex-grow: 1;
+    justify-content: center;
+    padding: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.miniboxes {
+    flex-grow: 1;
+   /* padding: 80px;
+    padding-left: 250px;
+    padding-right: 250px; */
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.borderimg {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    /*padding: 20px; */ 
+    width: 150px;
+    height: 150px;
+} 
+
+.miniimgtxt {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
 }
 
 .sect2 {
@@ -131,8 +161,8 @@
     flex-grow: 1;
     background-color: #E5E7EB;
     padding: 80px;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 .quote {
     font-size: 36px;
