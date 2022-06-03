@@ -19,7 +19,7 @@
     color: #F9FAF8;
     justify-content: left;
     align-items: flex-start;
-    margin-left: 124px;
+    margin-left: 164px;
     margin-top: 4px;
 }
 
@@ -28,10 +28,10 @@
     color: #F9FAF8;
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: right;
     align-items: flex-start;
     gap: 12px;
-    margin-right: 124px;
+    margin-right: 164px;
     margin-top: 4px;
 }
 
@@ -49,6 +49,8 @@
     margin-top: 82px;
     width: auto;
     height: 500px;
+    margin-left: 164px;
+    margin-right: 164px;
 }
 
 .topr {
@@ -103,6 +105,8 @@
     justify-content: center;
     align-items: center;
     /*margin-bottom: 150px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .infoblock {
@@ -124,9 +128,11 @@
     align-items: center;
     flex-grow: 1;
     justify-content: center;
-    padding: 80px;
+    padding: 0px;
+    padding-bottom: 50px;
     padding-left: 250px;
     padding-right: 250px;
+    background-color: white;
 }
 
 .miniboxes {
@@ -139,21 +145,28 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 
 .borderimg {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #3882F6;
     /*padding: 20px; */ 
     width: 150px;
     height: 150px;
+    background-color: white;
 } 
 
 .miniimgtxt {
-    color: #E5E7EB;
+    color: #1F2937;
     font-size: 18px;
     text-align: center;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .sect2 {
@@ -162,8 +175,8 @@
     flex-grow: 1;
     background-color: #E5E7EB;
     padding: 80px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 380px;
+    padding-right: 380px;
 }
 .quote {
     font-size: 36px;
@@ -187,7 +200,10 @@
     flex-grow: 1;
     background-color: #3882F6;
     margin: 50px;
-    border-radius: 10px;
+    border-radius: 6px;
+    margin: 80px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
 .sect3text {
@@ -195,14 +211,25 @@
     flex-grow: 1.5;
     background-color: #3882F6;
     flex-direction: column;
-    gap: 2px;
+    border-radius: 6px;
+    margin-left: 40px;
 }
 
 .text {
     color: #E5E7EB;
     font-size: 22px;
     background-color: #3882F6;
-    text-align: right;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.textv2 {
+    margin-top: 22px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .sect3button {
@@ -211,6 +238,8 @@
     justify-content: center;
     flex-grow: 1;
     background-color: #3882F6;
+    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .ctaButton {
@@ -231,7 +260,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    flex-grow: 1;
+    height: 90px;
 }
 
 .footeritem {
