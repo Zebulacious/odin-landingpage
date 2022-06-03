@@ -69,13 +69,14 @@
 }
 
 .topl {
-    display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     color: #E5E7EB;
     font-size: 18px;
     flex-grow: 1;
     flex: 1 1 0px;
+    text-align: center;
+    line-height: 150px;
 }
 .small {
     font-size: 18px;
@@ -202,8 +203,8 @@
     margin: 50px;
     border-radius: 6px;
     margin: 80px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .sect3text {
@@ -212,7 +213,9 @@
     background-color: #3882F6;
     flex-direction: column;
     border-radius: 6px;
-    margin-left: 40px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 0px;
 }
 
 .text {
@@ -239,7 +242,6 @@
     flex-grow: 1;
     background-color: #3882F6;
     margin-right: 50px;
-    margin-right: 40px;
 }
 
 .ctaButton {
