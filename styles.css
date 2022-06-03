@@ -116,6 +116,7 @@
 .thirds {
     display: flex;
     flex-direction: column;
+    background-color: white
 }
 
 .sect1 {
@@ -184,6 +185,44 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.sect3text {
+    display: flex;
+    flex-grow: 1.5;
+    background-color: #3882F6;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 22px;
+    background-color: #3882F6;
+    text-align: right;
+}
+
+.sect3button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #3882F6;
+}
+
+.ctaButton {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
 }
 
 
